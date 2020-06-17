@@ -1,0 +1,256 @@
+body, html {
+  background-color: #474647;
+  color: rgb(255, 255, 255) !important;
+  font-weight: normal;
+  overflow-x: hidden;
+}
+
+.pag {
+  margin-top: 40px;
+}
+
+.white-image {
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}
+
+.parallax {
+  background-image: url("../images/banner.jpg");
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-opacity {
+  background-color: rgba(9, 4, 20, .8);
+}
+
+.table {
+  color: rgb(250, 250, 250);
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  color: #f34336;
+  text-decoration: none;
+}
+
+.bg-primary {
+  background-color: rgb(253, 253, 253) !important;
+}
+
+.text-primary {
+  color: rgb(247, 247, 247) !important;
+}
+
+.bg-dark {
+  background-color: #090414 !important;
+}
+
+.border-primary {
+  border-color: rgb(248, 248, 248) !important;
+}
+
+.btn {
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 0;
+}
+
+.btn-primary {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #090414 !important;
+  box-shadow: none !important;
+}
+
+.btn-outline-primary {
+  color: rgb(255, 255, 255);
+  border-color: rgb(250, 250, 250);
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active {
+  background-color: rgb(255, 255, 255) !important;
+  border-color: rgb(252, 252, 252) !important;
+  box-shadow: none !important;
+}
+
+.marker-left {
+  padding: 5px 20px;
+  border-radius: 0;
+  border-left: 5px solid rgb(255, 67, 67);
+}
+
+
+.form-control {
+  margin-bottom: 0;
+  border: none;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-radius: 0;
+  -webkit-transition: .3s border-bottom-color ease;
+          transition: .3s border-bottom-color ease;
+  padding: 0px 5px;
+  background: transparent;
+  color: rgb(247, 247, 247) !important;
+}
+
+.btn-primary:hover {
+  background-color: #f34336 !important;
+  border-color: #f34336 !important;
+  color: #090414 !important;
+  box-shadow: none !important;
+}
+
+.form-control:focus, .select2-selection:focus, .select2-selection {
+  box-shadow: none !important;
+  outline: 0 none !important;
+  background: transparent !important;
+}
+
+.form-control::placeholder {
+  color: rgb(247, 247, 247);
+  opacity: .5;
+  font-weight: 100;
+}
+
+label.invalid {
+  font-size: .7rem;
+  color: red;
+  margin-bottom: 0;
+}
+
+.user-img {
+  border: 4px solid #f34336;
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.nav-top {
+  width: 100%;
+  height: 50px;
+  background-color: #7443FF;
+}
+
+.btn-action {
+  color: rgb(250, 250, 250);
+  background: transparent;
+}
+
+.btn-action:hover {
+  color: rgb(253, 253, 253);
+  background: transparent;
+}
+
+.overlay-box {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 92%;
+  height: 45%;
+  background-color: rgba(9, 4, 20, .8);
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+  bottom: 4px;
+  left: 4px;
+  font-size: 25px;
+}
+
+
+
+.overlay .overlay-icon {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+table td {
+  vertical-align: middle !important;
+}
+
+.modal-header, .modal-footer {
+  border: none;
+}
+
+.modal-content {
+  background-color: #090414;
+  border-radius: 0;
+  border: 1px solid rgb(247, 247, 247);
+}
+
+.logo {
+  width: 200px;
+  padding: 15px;
+  margin: 25px;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto
+  }
+
+  .logo2 {
+    width: 150px;
+    padding: 15px;
+    margin: 2px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto
+  }
+
+.recover {
+  position: absolute;
+  Right: 15px
+  }
+
+.register {
+  color: white;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  }
+  
+.form-group {
+  color: white;
+}
+
+
+@media only screen and (min-width: 320px) {
+  .body-adjust {
+    margin: 0 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .body-adjust {
+    margin: 0 150px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .body-adjust {
+    margin: 0 300px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .body-adjust {
+    margin: 0 450px;
+  }
+}
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Campatible" content="ie=edge">
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./health_track.css">
+        <title>Health Track</title>
+        <link rel="shortcut icon" type="image/x-icon" href="./images/logo_health_track.png" />
+        <link rel="icon" type="image/x-icon" href="./images/logo_health_track.png" />
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #f34336">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Dashboard</a>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./dashboard.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./perfil.html">Perfil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Sair</a>
+                </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="pag">
+            <div class="body-adjust pb-5 ">
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="./images/Henrique.jpg" alt="Foto de perfil Henrique Bastos" class="d-inline-block mr-3 user-img rounded-circle img-fluid" width="100"/>
+                <span>
+                    <h4>
+                        Henrique Bastos
+                    </h4>
+                    <span>
+                        30 anos
+                    </span>
+                </span>
+            </div>
+
+            <ul class="nav flex-column mt-4">
+                <li>
+                    <a href="./alimentacao.html" title="Ver alimentação" class="nav-link d-flex align-items-center justify-content-between py-3">
+                        <i class="fa fa-utensils mr-3 fa-2x"></i> Total calorias dia ● Calorias: 335 <i class="fa fa-angle-right ml-3"><svg class="bi bi-caret-right-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                          </svg></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./atividade.html" title="Ver atividades físicas" class="nav-link d-flex align-items-center justify-content-between py-3">
+                        <i class="fa fa-walking mr-3 fa-2x"></i> Última Atividade ● Musculação <i class="fa fa-angle-right ml-3"><svg class="bi bi-caret-right-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                          </svg></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./peso.html" title="Ver peso" class="nav-link d-flex align-items-center justify-content-between py-3">
+                        <i class="fa fa-weight mr-3 fa-2x"></i> Último peso 84,22kg ● Perda de peso -7,34kg <i class="fa fa-angle-right ml-3"><svg class="bi bi-caret-right-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                          </svg></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./imc.html" title="Ver pressão arterial" class="nav-link d-flex align-items-center justify-content-between py-3">
+                        <i class="fa fa-ruler-horizontal mr-3 fa-2x"></i> IMC ● 23,96 Peso ideal <i class="fa fa-angle-right ml-3"><svg class="bi bi-caret-right-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                          </svg></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </div>
+
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>

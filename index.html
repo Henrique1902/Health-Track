@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Campatible" content="ie=edge">
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles_index.css">
+        <title>Health Track</title>
+        <link rel="shortcut icon" type="image/x-icon" href="./images/logo_health_track.png" />
+        <link rel="icon" type="image/x-icon" href="./images/logo_health_track.png" />
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <img class="logo" src="./images/logo_health_track.png">
+            <form action="./dashboard.html" method="GET" autocomplete="off">
+                <div class="form-group">
+                    <label for="email">Digite um e-mail:</label>
+                    <div class="input-group">
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required="required">				
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="pwd">Criar uma senha:</label>
+                    <div class="input-group">
+                        <input type="password" class="form-control" name="password" placeholder="Digite sua senha" required="required">				
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label><input type="checkbox">  Lembrar senha</label>
+                    <a href="#" class="recover">Esqueceu a senha?</a>
+                </div>
+
+                <button type="submit" title="Entrar" class="btn btn-primary btn-block mt-3 next">
+                    Entrar
+                </button>
+            </form>
+            
+            <span>
+                Ainda não possui uma conta?
+                <a title="Cadastre-se" href="./register.html">
+                    Cadastre-se
+                </a>
+            </span>
+            
+        </div>
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>

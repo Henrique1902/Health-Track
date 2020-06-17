@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Campatible" content="ie=edge">
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles_register.css">
+        <title>Health Track</title>
+        <link rel="shortcut icon" type="image/x-icon" href="./images/logo_health_track.png" />
+        <link rel="icon" type="image/x-icon" href="./images/logo_health_track.png" />
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <img class="logo2" src="./images/logo_health_track.png">
+            <form action="./dashboard.html" method="GET" autocomplete="off">
+                <div class="form-group">
+                    <label for=name">Nome</label>
+                    <div class="input-group">
+                        <input type="name" class="form-control" id="name" placeholder="Nome completo" required="required">
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label for=date">Data de nascimento</label>
+                    <div class="input-group">
+                        <input type="date" class="form-control" id="date" placeholder="Data de nascimento" required="required">
+                    </div>
+                </div>
+    
+                
+                <div class="form-group">
+                    <label for=date">Gênero</label>
+                    <select class="form-control" id="genero" required="required">
+                        <option value="m">Masculino</option>
+                        <option value="f">Feminino</option>
+                        <option value="o">Outros</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Digite um e-mail:</label>
+                    <div class="input-group">
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required="required">				
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Confirma e-mail:</label>
+                    <div class="input-group">
+                        <input type="email" class="form-control" id="email" placeholder="Confirme seu e-mail" required="required">				
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label for="pwd">Criar uma senha:</label>
+                    <div class="input-group">
+                        <input type="password" class="form-control" name="password" placeholder="Digite sua senha" required="required">				
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label for="pwd">Confirma senha:</label>
+                    <div class="input-group">
+                        <input type="password" class="form-control" name="password" placeholder="Confirme sua senha" required="required">				
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label><input type="checkbox">  Lembrar senha</label>
+                </div>
+    
+                <div class="form-group">
+                    <button type="submit" title="Entrar" class="btn btn-primary btn-block mt-3 next">Entrar</button>
+                </div>
+            </form>
+        </div>
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>

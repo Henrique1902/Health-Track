@@ -1,0 +1,25 @@
+
+body {
+    background: #f34336;
+    }
+.logo {
+    width: 300px;
+    padding: 15px;
+    margin: 25px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto
+    }
+.recover {
+    position: absolute;
+    Right: 15px
+    }
+.register {
+    color: white;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    }
+.form-group {
+    color: white;
+}
